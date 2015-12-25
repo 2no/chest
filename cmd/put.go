@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	"../utils"
 	"bufio"
 	"fmt"
 	"github.com/Songmu/prompter"
+	"github.com/wakuworks/chest/utils"
 	"os"
 	"path/filepath"
 )

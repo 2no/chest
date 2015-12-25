@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"../utils"
 	"fmt"
+	"github.com/wakuworks/chest/utils"
 	"os"
 	"path/filepath"
 )

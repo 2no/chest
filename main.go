@@ -1,8 +1,8 @@
 package main
 
 import (
-	"./cmd"
 	"fmt"
+	"github.com/wakuworks/chest/cmd"
 	"os"
 )
 
