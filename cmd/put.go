@@ -26,6 +26,8 @@ func Put(files []string) {
 		filePath := filepath.Join(chestPath, file)
 		if utils.ExistsFile(filePath) {
 			fmt.Println("File already exist in chest: " + file)
+			fmt.Println("diff:")
+			utils.PrintFileDiff(file, filePath)
 			return
 		}
 

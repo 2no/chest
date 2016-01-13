@@ -26,6 +26,8 @@ func Take(files []string) {
 		rootInFilePath := filepath.Join(rootPath, file)
 		if utils.ExistsFile(rootInFilePath) {
 			fmt.Println("File already exist in root: " + rootInFilePath)
+			fmt.Println("diff:")
+			utils.PrintFileDiff(chestInFilePath, rootInFilePath)
 			return
 		}
 
